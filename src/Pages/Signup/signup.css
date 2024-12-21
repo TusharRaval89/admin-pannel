@@ -1,0 +1,95 @@
+.signup-main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    background-color: #765827;
+  }
+  
+  .signup-main::before {
+    background-image: url("/public/img/business.webp");
+    filter: blur(5px);
+    content: "";
+    position: absolute;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+  
+  .s-content {
+    /* background-image: url("https://media0.giphy.com/media/mFdnWF1RTI7fi/200w.gif?cid=6c09b9521szwgb94otqz4fcpjajwsteu1bpl0dtudp2ezmn9&ep=v1_gifs_search&rid=200w.gif&ct=g"); */
+    background-color: white;
+    background-size: cover;
+    width: 400px;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    padding: 40px 0px 30px;
+  }
+  
+  .s-content h1 {
+    color: #765827;
+  }
+  .s-content path {
+    fill: #765827;
+  }
+  .field {
+    margin-top: 50px;
+  }
+  .field input {
+    width: 82%;
+    color: #765827 !important;
+    border: 3px solid #765827;
+    /* background: transparent; */
+  }
+  .field .login {
+    text-align: center;
+  }
+  .f-content {
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-weight: 800;
+  }
+  .f-content1 {
+    width: 88%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: #765827;
+    border: 4px solid #765827;
+    color: white;
+    font-weight: 800;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .f-content1:hover {
+    background: rgb(255, 255, 255);
+    border: 4px solid #765827;
+    color: #765827;
+    transition: 0.5s;
+  }
+  .error{
+    color: red;
+    font-weight: 600;
+    margin: 5px 0px 0px;
+    text-align: start;
+    padding-left: 28px;
+  }
+  .f-pass {
+    position: relative;
+  }
+  .pass-icon{
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    cursor: pointer;
+  }
+  
